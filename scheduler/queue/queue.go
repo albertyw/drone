@@ -263,12 +263,9 @@ type counter struct {
 	counts map[string]int
 }
 
-func checkLabels(a, b map[string]string) bool {
-	if len(a) != len(b) {
-		return false
-	}
-	for k, v := range a {
-		if w, ok := b[k]; !ok || v != w {
+func checkLabels(itemLabels, workerLabels map[string]string) bool {
+	for k, v := range itemLabels {
+		if w, ok := workerLabels[k]; !ok || v != w {
 			return false
 		}
 	}
