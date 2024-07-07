@@ -261,6 +261,7 @@ func (r *Runner) Run(ctx context.Context, id int64) error {
 			"plugins/ecr",
 			"plugins/gcr",
 			"plugins/heroku",
+			"docker",
 		),
 	)
 	comp.SkipFunc = compiler.SkipFunc(
