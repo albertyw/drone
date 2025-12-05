@@ -45,16 +45,17 @@ require (
 	github.com/prometheus/client_golang v1.11.1
 	github.com/robfig/cron v0.0.0-20180505203441-b41be1df6967
 	github.com/segmentio/ksuid v1.0.2
-	github.com/sirupsen/logrus v1.8.1
+	github.com/sirupsen/logrus v1.8.3
 	github.com/unrolled/secure v0.0.0-20181022170031-4b6b7cf51606
 	go.starlark.net v0.0.0-20221020143700-22309ac47eac
-	golang.org/x/crypto v0.0.0-20210817164053-32db794688a5
-	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
+	golang.org/x/crypto v0.17.0
+	golang.org/x/sync v0.1.0
 	gopkg.in/yaml.v2 v2.4.0
 )
 
 require (
 	github.com/Azure/azure-pipeline-go v0.2.1 // indirect
+	github.com/Azure/go-autorest/autorest/adal v0.9.24 // indirect
 	github.com/Microsoft/go-winio v0.5.2 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/bmatcuk/doublestar v1.1.1 // indirect
@@ -84,10 +85,11 @@ require (
 	github.com/prometheus/common v0.26.0 // indirect
 	github.com/prometheus/procfs v0.7.3 // indirect
 	github.com/rainycape/unidecode v0.0.0-20150907023854-cb7f23ec59be // indirect
+	github.com/stretchr/testify v1.8.2 // indirect
 	github.com/vinzenz/yaml v0.0.0-20170920082545-91409cdd725d // indirect
-	golang.org/x/net v0.0.0-20211216030914-fe4d6282115f // indirect
-	golang.org/x/sys v0.1.0 // indirect
-	golang.org/x/text v0.3.7 // indirect
+	golang.org/x/net v0.10.0 // indirect
+	golang.org/x/sys v0.15.0 // indirect
+	golang.org/x/text v0.14.0 // indirect
 	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/genproto v0.0.0-20211208223120-3a66f561d7aa // indirect
